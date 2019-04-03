@@ -10,4 +10,9 @@ T<sub><i>Lookup</i></sub> = <b><i>O</i></b>(md)
 T<sub><i>Insert</i></sub> = <b><i>O</i></b>(md)
 
 #### `trie_delete`   
-T<sub><i>Delete</i></sub> = T<sub><i>Lookup</i></sub> + m = <b><i>O</i></b>(md + m) = <b><i>O</i></b>(md)
+T<sub><i>Delete</i></sub> = T<sub><i>Lookup</i></sub> + m = <b><i>O</i></b>(md + m) = <b><i>O</i></b>(md)   
+
+### Legend
+
+d - Count of characters in the alphabet (constant)    
+m - Key length
