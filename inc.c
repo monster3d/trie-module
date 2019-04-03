@@ -1,6 +1,7 @@
 
 #include <stdlib.h>
 #include <string.h>
+#include "inc.h"
 #include "trie.c"
 
 struct trie *trie_create() {
